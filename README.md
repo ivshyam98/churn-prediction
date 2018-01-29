@@ -3,7 +3,7 @@
 
 *https://www.kaggle.com/*
 
-**The goal of this repository is to get more experience in process of data analysis: collection, processing, cleaning, plotting, feature engineering, etc. Also would be nice to improve my R and Python skills as well as become more comfortable with mostly used machine learning algorithms. In Kaggle competitions I'm going to replicate works of others and try out my own ideas.**
+**The goal of this repository is to get more experience in process of data analysis: collection, preprocessing, cleaning, plotting, feature engineering, etc. Also would be nice to improve my R and Python skills as well as become more comfortable with mostly used machine learning algorithms. Here I'm going to replicate works of others and try out my own ideas.**
 
 # [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic#description)
 
