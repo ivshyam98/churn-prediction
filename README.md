@@ -8,6 +8,6 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
 
 [**Data source**](https://www.kaggle.com/c/titanic/data)
 
-![alt text](https://kaggle2.blob.core.windows.net/competitions/kaggle/3136/logos/front_page.png "Logo Title Text 1")
+![alt text](https://blog.dataiku.com/hubfs/Dataiku%20Dec%202016/Image/titanic.jpg?t=1516914241855 "Logo Title Text 1")
 
 
