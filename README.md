@@ -14,3 +14,14 @@
 For this challenge I chose a popular [**Python notebook**](https://www.kaggle.com/startupsci/titanic-data-science-solutions/notebook) from Kaggle kernels and replicated it in R. During the process I decided to slightly change some details and order of operations, but the essence remains the same: all continuous numerical features (*Age*, *Fare*) split into categories by values or distribution, fully prepared data contains only discrete numerical values, no one-hot encoding, not used *Cabin* feature with many empty values, used different classifiers, but no hyper-parameter tuning (well, in my case *caret* tries some different hyper-parameters automatically).
 
 [**My script in R**](/titanic/titanic.R)
+
+**Current test set accuracy results:**
+* Logistic Regression - 0.73205
+* Support Vector Machines with Radial Basis Kernel - 0.76555
+* k-Nearest Neighbors - 0.76555
+* Gaussian Naive Bayes - 0.71770
+* Perceptron - 0.74162
+* Support Vector Machines with Linear Kernel - 0.76555
+* Stochastic Gradient Descent (mlp) - 0.62679
+* Decision Tree - 0.76555
+* Random Forest - 0.77033
