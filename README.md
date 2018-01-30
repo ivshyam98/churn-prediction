@@ -1,4 +1,3 @@
-## Kaggle - The Home of Data Science & Machine Learning
 ![](/images/kaggle_logo.png)
 
 *https://www.kaggle.com/*
@@ -14,4 +13,4 @@
 
 For this challenge I chose a popular [**Python notebook**](https://www.kaggle.com/startupsci/titanic-data-science-solutions/notebook) from Kaggle kernels and replicated it in R. During the process I decided to slightly change some details and order of operations, but the essence remains the same: all continuous numerical features (*Age*, *Fare*) split into categories by values or distribution, fully prepared data contains only discrete numerical values, no one-hot encoding, not used *Cabin* feature with many empty values, used different classifiers, but no hyper-parameter tuning (well, in my case *caret* tries some different hyper-parameters automatically).
 
-**My script in R**
+[**My script in R**](/titanic/titanic.R)
