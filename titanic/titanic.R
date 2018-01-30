@@ -181,16 +181,16 @@ algorithms <- c('glm',        # Logistic Regression
 # fit models and get results
 for (alg in algorithms){
     
-    print(paste('Working on', alg, 'model...'))
+    print(paste('working on', alg, 'model...'))
     
     # fit model
     model <- train(X_train, factor(Y_train$Survived), method=alg)
     
     # predict output
-    probs <- predict(object=model, X_test, type='prob')
+    preds <- predict(object=model, X_test, type='raw')
     
     # save predictions to files
-    predictions <- data.frame(PassengerID = test_df$PassengerId, Survived = round(probs[,2]))
+    predictions <- data.frame(PassengerID=test_df$PassengerId, Survived=preds)
     write.csv(predictions, file=paste('./output/predictions_', alg, '.csv', sep=''), row.names=F) }
 
 
