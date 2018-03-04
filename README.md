@@ -4,6 +4,8 @@
 
 **The goal of this repository is to get more experience in processes of data-analysis: data collection, preprocessing, cleaning, plotting, feature engineering, etc. Also would be nice to improve my R and Python skills as well as become more comfortable with mostly used machine learning algorithms. Here I'm going to replicate works of others and try out my own ideas.**
 
+---
+
 # [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic#description)
 
 <img align="left" src="/images/titanic_small.png">
