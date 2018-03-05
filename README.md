@@ -35,7 +35,7 @@ For this challenge I chose a popular [Python notebook](https://www.kaggle.com/st
 
 *The churn rate, also known as the rate of attrition, is the percentage of subscribers to a service who discontinue their subscriptions to that service within a given time period. For a company to expand its clientele, its growth rate, as measured by the number of new customers, must exceed its churn rate. The rate is generally expressed as a percentage. [Data here.](https://www.kaggle.com/hkalsi/telecom-company-customer-churn/data)*
 
-This is my final data anlysis project for Tele2 Big Data Academy 2018. For this task I chose a telecom company customers dataset with labeled churn cases and applied known methods of data cleaning, feature engineering and exploratory analysis. After undertanding main trends and criteria leading to customer churn, I tried some popular machine learning algorithms to predict potential churners. Modeling results in test set could be seen below. 
+This is my final data anlysis project for Tele2 Big Data Academy 2018. For this task I chose a telecom company customers churn dataset  and applied known methods of data cleaning, feature engineering and exploratory analysis. After undertanding main trends and criteria leading to customer churn, I tried some popular machine learning algorithms to predict potential churners. Modeling results on test set could be seen below. 
 
 [**My script in R**](/churn-prediction)
 
