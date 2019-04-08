@@ -32,10 +32,10 @@ set.seed(1)
 
 ### Read data 
 na.values <- c('', '?', 'MISSINGVAL', 'NA')  # values from data documentation
-train_acc <- fread('files/Train_AccountInfo.csv', na.strings=na.values)
-train_dem <- fread('files/Train_Demographics.csv', na.strings=na.values)
-train_ser <- fread('files/Train_ServicesOptedFor.csv', na.strings=na.values)
-train_churn <- fread('files/Train.csv', na.strings=na.values)
+train_acc <- fread('data/Train_AccountInfo.csv', na.strings=na.values)
+train_dem <- fread('data/Train_Demographics.csv', na.strings=na.values)
+train_ser <- fread('data/Train_ServicesOptedFor.csv', na.strings=na.values)
+train_churn <- fread('data/Train.csv', na.strings=na.values)
 
 
 # Check if data suitable to join
