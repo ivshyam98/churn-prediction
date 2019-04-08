@@ -1,8 +1,5 @@
-
----
-
 # Telecom company data analysis and churn prediction
-### Tele2 Big Data Academy 2018
+### _Tele2 Big Data Academy 2018_
 
 <img align="left" src="/images/churn_small.png">
 
@@ -17,13 +14,14 @@ For this task I chose a telecom company customers churn data set and applied
 several methods for data cleaning, feature engineering and exploratory analysis. 
 After understanding main trends and criteria leading to customer churn, 
 I tried some popular machine learning algorithms to predict potential 
-churners on unseen testing data. In order to have full control of prediction 
+churners on unseen testing data. For this task I used well-known 
+Machine Learning algorithms (Logistic Regression, SVM, Tree-based models, 
+KNN, Neural Networks). In order to have full control of prediction 
 process, I implemented feed-forward Neural Network model as well Dropout and 
-Adam optimizer algorithms from scratch in base R. 
+Adam optimizer algorithms from scratch only in base R. 
 
-[Data from Kaggle](https://www.kaggle.com/hkalsi/telecom-company-customer-churn/data)
 
-[Presentation]()
+[Presentation](/images/slides.zip)
 
 
 <img src="/images/example1.png" height="260"/><img src="/images/example2.png" height="260"/><img src="/images/example3.png" height="260"/><img src="/images/models.png" height="260"/>
